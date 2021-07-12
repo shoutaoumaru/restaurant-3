@@ -1,0 +1,174 @@
+/******************************************************************
+
+Stylesheet: 600px以上のモニタで適用
+
+******************************************************************/
+
+
+.c-txt-sm {
+  font-size: 1.1rem;
+}
+
+.c-txt-xs {
+  font-size: .9rem;
+}
+
+.c-txt-vertical {
+  font-size: 1.3rem;
+}
+
+.view-more {
+  &__link {
+    font-size: 1.5rem;
+  }
+}
+
+//header
+.header {
+  height: 90px;
+
+  & .sp-navbtn {
+    display: none;
+  }
+
+  & .logo {
+    margin-top: 4vw;
+  }
+
+  & .mobile-container {
+    & .mobile-button {
+      top: 32px;
+      right: 45px;
+    }
+  }
+}
+
+//#top
+.p-top {
+  & .swiper-container {
+    height: 84vh;
+  }
+}
+
+//#message
+.p-message {
+  & .img-txt {
+    font-size: 1.4rem;
+  }
+}
+
+//#about
+.p-about {
+  padding: 20vw 0 0 0;
+
+  &__img {
+
+    &.left,
+    &.right {
+      height: 290px;
+    }
+
+    & img {
+      width: 50%;
+      height: 83%;
+    }
+  }
+}
+
+//#special
+.p-special {
+  &__img {
+    & img {
+      width: 50%;
+      height: 72%;
+    }
+  }
+}
+
+//#menu
+.p-menu {
+  padding: 10vw 0 10vw 0;
+
+  & .swiper-container2,
+  & .swiper-container3 {
+    height: 270px;
+  }
+
+  & .menu-name {
+    font-size: 1.6rem;
+  }
+
+  & .hero {
+    padding-left: 20vw;
+  }
+}
+
+//#footer
+.p-footer {
+
+  & .sns-insta,
+  & .sns-fb {
+    margin-right: 15px;
+    margin-left: 15px;
+
+    & .sns-link {
+      width: 80px;
+      height: 80px;
+      border-radius: 50px;
+
+      & i {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+
+  & .c-logo {
+    & img {
+      width: 23%;
+    }
+  }
+
+  & .copyright {
+    font-size: 1.2rem;
+  }
+}
+
+//mobile-menu
+.mobile-menu {
+  &__ul {
+    font-size: 1.2rem;
+    padding-left: 76px;
+    padding-top: 250px;
+  }
+
+  &__li {
+    margin-bottom: 60px;
+  }
+
+  &__nav {
+    & address {
+      padding-left: 76px;
+
+      & em {
+        font-size: .9rem;
+      }
+    }
+  }
+}
+
+//* * * * * * * * * menu-page * * * * * * * * * * 
+.c-top {
+  text-align: center;
+
+  & img {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+.superwrapper-menu {
+  .c-menu {
+    padding-top: 15vw;
+  }
+}
