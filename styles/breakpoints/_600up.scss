@@ -37,8 +37,8 @@ Stylesheet: 600px以上のモニタで適用
 
   & .mobile-container {
     & .mobile-button {
-      top: 32px;
-      right: 45px;
+      top: 35px;
+      right: 70px;
     }
   }
 }
@@ -47,6 +47,18 @@ Stylesheet: 600px以上のモニタで適用
 .p-top {
   & .swiper-container {
     height: 84vh;
+  }
+
+  & .sub-title-name {
+    right: 10px;
+    font-size: 16px;
+    letter-spacing: 10px;
+  }
+
+  .scrolldown {
+    right: 27px;
+    bottom: 75px;
+    font-size: 16px;
   }
 }
 

@@ -1,6 +1,6 @@
 .swiper-container {
   overflow: visible !important;
-  height: 85vh;
+  height: 80vh;
 
   @media (max-width: 1200px) {
     & .view-pc {
@@ -75,12 +75,12 @@
 .scrolldown {
   display: inline-block;
   position: absolute;
-  left: 45vw;
-  bottom: 0;
+  bottom: 20px;
+  right: 3px;
   z-index: 2;
   padding: 10px 10px 90px;
   overflow: hidden;
-  color: #fff;
+  color: $cBlack;
   font-size: 14px;
   font-family: 'Josefin Sans', sans-serif;
   line-height: 1;
@@ -92,21 +92,21 @@
   &::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 50%;
     width: 1px;
     height: 80px;
-    background: #fff;
+    background: $cBlack;
   }
 
   &::before {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 50%;
     width: 1px;
     height: 80px;
-    background: rgba(255, 255, 255, .4);
+    background: rgba(63, 63, 63, 0.4);
   }
 
   &::after {
@@ -116,12 +116,12 @@
 
   @keyframes sdl {
     0% {
-      transform: translateY(-70px);
+      transform: translateY(-55px);
     }
 
     50%,
     100% {
-      transform: translateY(30px);
+      transform: translateY(40px);
     }
   }
 }

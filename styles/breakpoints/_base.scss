@@ -276,7 +276,7 @@ a {
     left: 0;
     background-color: #fff;
     opacity: .7;
-    height: 6vh;
+    height: 7.5vh;
     width: 100%;
     z-index: 2000;
     transition: all 0.4s;
@@ -320,33 +320,20 @@ a {
   position: relative;
   padding-bottom: 20vw;
 
-  &__txtarea {
-    position: absolute;
-    top: 30%;
-    left: 5%;
-    z-index: 100;
-
-    & .main {
-      padding-bottom: 9vw;
-
-      & p {
-        font-weight: 100;
-        color: $cWhite;
-      }
-    }
-
-    & .sub {
-      & p {
-        font-weight: 300;
-        font-size: .9rem;
-        line-height: 2;
-        color: $cWhite;
-      }
-    }
-
-
+  .hero {
+    width: 90%;
+    overflow: hidden;
   }
 
+  .sub-title-name {
+    position: absolute;
+    top: 40%;
+    right: -6px;
+    writing-mode: vertical-lr;
+    letter-spacing: 6px;
+    color: #bd9c8a;
+    font-size: 14px;
+  }
 }
 
 //#message

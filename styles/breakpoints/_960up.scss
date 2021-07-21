@@ -70,16 +70,15 @@ Stylesheet: 960px以上のモニタで適用
 
 //#top 
 .p-top {
-  & .scrolldown {
-    font-size: 1.8rem;
-    bottom: 20px;
-    left: 48vw;
+  & .sub-title-name {
+    right: 20px;
+    font-size: 20px;
+  }
 
-    &::before {
-      height: 120px;
-      bottom: -35px;
-      width: 2px;
-    }
+  & .scrolldown {
+    font-size: 18px;
+    right: 34px;
+    bottom: 100px;
   }
 
 }
