@@ -1865,7 +1865,7 @@ a {
 .mobile-container .mobile-button {
   position: fixed;
   top: 25px;
-  right: 28px;
+  right: 20px;
   z-index: 2000;
 }
 
