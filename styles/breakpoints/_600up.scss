@@ -80,6 +80,14 @@ Stylesheet: 600px以上のモニタで適用
       height: 290px;
     }
 
+    &.left {
+      margin-top: 15vw;
+    }
+
+    &.right {
+      margin-top: 10vw;
+    }
+
     & img {
       width: 50%;
       height: 83%;
@@ -95,6 +103,11 @@ Stylesheet: 600px以上のモニタで適用
       height: 72%;
     }
   }
+}
+
+//.p-info
+.p-info {
+  padding: 10vw 0 0 0;
 }
 
 //#menu

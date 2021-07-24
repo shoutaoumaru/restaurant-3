@@ -67,6 +67,7 @@ Stylesheet: 1200px以上のモニタで適用
 
   &__img {
     &.left {
+      margin-top: 0;
       justify-content: flex-end;
 
       & .simpleParallax {
@@ -111,10 +112,10 @@ Stylesheet: 1200px以上のモニタで適用
 
   &__img {
     &.left {
-      margin-bottom: 0;
+      margin: 10vw 0 0 0;
     }
 
-    & .right {
+    &.right {
       margin-top: 0;
     }
   }
@@ -130,7 +131,7 @@ Stylesheet: 1200px以上のモニタで適用
 
 //#information
 .p-info {
-  padding: 0 0 10vw 0;
+  padding: 0 0 5vw 0;
 }
 
 //#news

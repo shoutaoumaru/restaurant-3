@@ -398,6 +398,10 @@ a {
     margin: 5vw 0;
   }
 
+  &__sub-txt {
+    margin-bottom: 80px;
+  }
+
   &__img {
     & img {
       width: 60%;
@@ -407,7 +411,7 @@ a {
     &.left {
       display: flex;
       justify-content: flex-start;
-      margin-top: 0vw;
+      margin-top: 10vw;
       height: 160px;
 
       & img {
@@ -435,7 +439,7 @@ a {
 
   & .cover-bg {
     position: absolute;
-    top: 52%;
+    top: 55%;
     left: 0;
     background-color: rgb(238, 231, 231);
     height: 120vw;
@@ -608,12 +612,7 @@ a {
 
   &__link {
     display: block;
-    padding: 8vw 0;
-    border-bottom: 1px solid rgb(235, 235, 235);
-
-    &:first-child {
-      border-top: 1px solid rgb(235, 235, 235);
-    }
+    padding: 6vw 0;
 
     & p {
       margin-top: 2vw;
@@ -624,6 +623,13 @@ a {
     padding-right: 0;
   }
 
+  &__item {
+    border-bottom: 1px solid rgb(235, 235, 235);
+
+    &:first-child {
+      border-top: 1px solid rgb(235, 235, 235);
+    }
+  }
 }
 
 //#footer 

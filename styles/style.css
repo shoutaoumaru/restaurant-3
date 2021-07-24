@@ -979,6 +979,10 @@ a {
   margin: 5vw 0;
 }
 
+.p-about__sub-txt {
+  margin-bottom: 80px;
+}
+
 .p-about__img img {
   width: 60%;
   height: 85%;
@@ -991,7 +995,7 @@ a {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-top: 0vw;
+  margin-top: 10vw;
   height: 160px;
 }
 
@@ -1027,7 +1031,7 @@ a {
 
 .p-about .cover-bg {
   position: absolute;
-  top: 52%;
+  top: 55%;
   left: 0;
   background-color: #eee7e7;
   height: 120vw;
@@ -1202,12 +1206,7 @@ a {
 
 .p-news__link {
   display: block;
-  padding: 8vw 0;
-  border-bottom: 1px solid #ebebeb;
-}
-
-.p-news__link:first-child {
-  border-top: 1px solid #ebebeb;
+  padding: 6vw 0;
 }
 
 .p-news__link p {
@@ -1216,6 +1215,14 @@ a {
 
 .p-news .view-more {
   padding-right: 0;
+}
+
+.p-news__item {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.p-news__item:first-child {
+  border-top: 1px solid #ebebeb;
 }
 
 .p-footer {
@@ -2387,6 +2394,12 @@ Stylesheet: 600px以上のモニタで適用
   .p-about__img.left, .p-about__img.right {
     height: 290px;
   }
+  .p-about__img.left {
+    margin-top: 15vw;
+  }
+  .p-about__img.right {
+    margin-top: 10vw;
+  }
   .p-about__img img {
     width: 50%;
     height: 83%;
@@ -2394,6 +2407,9 @@ Stylesheet: 600px以上のモニタで適用
   .p-special__img img {
     width: 50%;
     height: 72%;
+  }
+  .p-info {
+    padding: 10vw 0 0 0;
   }
   .p-menu {
     padding: 10vw 0 10vw 0;
@@ -2551,9 +2567,6 @@ Stylesheet: 960px以上のモニタで適用
   .p-menu .menu-name {
     font-size: 2rem;
   }
-  .p-info {
-    padding: 10vw 0 15vw 0;
-  }
   .p-info__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2683,6 +2696,7 @@ Stylesheet: 1200px以上のモニタで適用
     padding-top: 5vw;
   }
   .p-about__img.left {
+    margin-top: 0;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -2716,9 +2730,9 @@ Stylesheet: 1200px以上のモニタで適用
     width: 50%;
   }
   .p-special__img.left {
-    margin-bottom: 0;
+    margin: 10vw 0 0 0;
   }
-  .p-special__img .right {
+  .p-special__img.right {
     margin-top: 0;
   }
   .p-special__txt .txt01,
@@ -2726,7 +2740,7 @@ Stylesheet: 1200px以上のモニタで適用
     padding-top: 0;
   }
   .p-info {
-    padding: 0 0 10vw 0;
+    padding: 0 0 5vw 0;
   }
   .p-news {
     padding: 0 0 8vw 0;
