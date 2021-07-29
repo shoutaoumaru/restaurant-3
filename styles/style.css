@@ -756,7 +756,7 @@ a {
 .icon-tel::before {
   content: '';
   display: block;
-  background-image: url(/images/common/icon-tel.png);
+  background-image: url(../images/common/icon-tel.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -771,7 +771,7 @@ a {
 .icon-map::before {
   content: '';
   display: block;
-  background-image: url(/images/common/icon-map.png);
+  background-image: url(../images/common/icon-map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -786,7 +786,7 @@ a {
 .icon-net::before {
   content: '';
   display: block;
-  background-image: url(/images/common/icon-calendar.png);
+  background-image: url(../images/common/icon-calendar.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -807,7 +807,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(/images/common/icon-insta-gr.png);
+  background-image: url(../images/common/icon-insta-gr.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -834,7 +834,7 @@ a {
 }
 
 .header .logo {
-  background-image: url(/images/common/riv_logo.png);
+  background-image: url(../images/common/riv_logo.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1181,7 +1181,7 @@ a {
   content: '';
   height: 20px;
   width: 20px;
-  background-image: url(/images/common/icon-map.png);
+  background-image: url(../images/common/icon-map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1211,6 +1211,10 @@ a {
 
 .p-news__link p {
   margin-top: 2vw;
+}
+
+.p-news__date {
+  color: #a0a0a0;
 }
 
 .p-news .view-more {
@@ -1290,7 +1294,7 @@ a {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-image: url(/images/common/icon-insta-gr.png);
+  background-image: url(../images/common/icon-insta-gr.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1322,7 +1326,7 @@ a {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-image: url(/images/common/facebook-ico.png);
+  background-image: url(../images/common/facebook-ico.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -1353,18 +1357,25 @@ a {
   padding-top: 20vw;
 }
 
-.c-news__link {
-  display: block;
-  padding: 8vw 0;
-  border-bottom: 1px solid #ebebeb;
+.c-news__date {
+  color: #a0a0a0;
 }
 
-.c-news__link:first-child {
-  border-top: 1px solid #ebebeb;
+.c-news__link {
+  display: block;
+  padding: 6vw 0;
 }
 
 .c-news__link p {
   margin-top: 2vw;
+}
+
+.c-news__item {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.c-news__item:first-child {
+  border-top: 1px solid #ebebeb;
 }
 
 .c-news .page-numbers {
@@ -1411,7 +1422,7 @@ a {
   content: "";
   position: absolute;
   right: 0;
-  background-image: url(/images/common/arrow.png);
+  background-image: url(../images/common/arrow.png);
   background-position: right center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1456,7 +1467,7 @@ a {
 }
 
 .c-news-sl__date {
-  color: #adadad;
+  color: #a0a0a0;
 }
 
 .c-news-sl__list {
@@ -1858,7 +1869,7 @@ a {
   right: 5px;
   height: 12px;
   width: 12px;
-  background-image: url(/images/common/icon-link-1-black.png);
+  background-image: url(../images/common/icon-link-1-black.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1875,7 +1886,7 @@ a {
   right: 10px;
   height: 12px;
   width: 12px;
-  background-image: url(/images/common/icon-tel.png);
+  background-image: url(../images/common/icon-tel.png);
   background-size: contain;
   background-repeat: no-repeat;
 }

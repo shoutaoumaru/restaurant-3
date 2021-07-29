@@ -144,7 +144,7 @@ a {
   &::before {
     content: '';
     display: block;
-    background-image: url(/images/common/icon-tel.png);
+    background-image: url(../images/common/icon-tel.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -160,7 +160,7 @@ a {
   &::before {
     content: '';
     display: block;
-    background-image: url(/images/common/icon-map.png);
+    background-image: url(../images/common/icon-map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -176,7 +176,7 @@ a {
   &::before {
     content: '';
     display: block;
-    background-image: url(/images/common/icon-calendar.png);
+    background-image: url(../images/common/icon-calendar.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -198,7 +198,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/images/common/icon-insta-gr.png);
+    background-image: url(../images/common/icon-insta-gr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -226,7 +226,7 @@ a {
   }
 
   & .logo {
-    background-image: url(/images/common/riv_logo.png);
+    background-image: url(../images/common/riv_logo.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -239,7 +239,7 @@ a {
   // & .menu-open {
   //   &.logo {
   //     transition: all .3s;
-  //     background-image: url(/images/home/riv_logo.png) !important;
+  //     background-image: url(../images/home/riv_logo.png) !important;
   //     background-position: center;
   //     background-size: contain;
   //     background-repeat: no-repeat;
@@ -252,7 +252,7 @@ a {
   // & .inview {
   //   &.logo {
   //     transition: all .3s;
-  //     background-image: url(/images/home/riv_logo-white.png);
+  //     background-image: url(../images/home/riv_logo-white.png);
   //     background-position: center;
   //     background-size: contain;
   //     background-repeat: no-repeat;
@@ -584,7 +584,7 @@ a {
         content: '';
         height: 20px;
         width: 20px;
-        background-image: url(/images/common/icon-map.png);
+        background-image: url(../images/common/icon-map.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -617,6 +617,10 @@ a {
     & p {
       margin-top: 2vw;
     }
+  }
+
+  &__date {
+    color: $cGray;
   }
 
   & .view-more {
@@ -683,7 +687,7 @@ a {
         right: 0;
         bottom: 0;
         margin: auto;
-        background-image: url(/images/common/icon-insta-gr.png);
+        background-image: url(../images/common/icon-insta-gr.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -714,7 +718,7 @@ a {
         right: 0;
         bottom: 0;
         margin: auto;
-        background-image: url(/images/common/facebook-ico.png);
+        background-image: url(../images/common/facebook-ico.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -757,17 +761,24 @@ a {
 .c-news {
   padding-top: 20vw;
 
+  &__date {
+    color: $cGray;
+  }
+
   &__link {
     display: block;
-    padding: 8vw 0;
+    padding: 6vw 0;
+
+    & p {
+      margin-top: 2vw;
+    }
+  }
+
+  &__item {
     border-bottom: 1px solid rgb(235, 235, 235);
 
     &:first-child {
       border-top: 1px solid rgb(235, 235, 235);
-    }
-
-    & p {
-      margin-top: 2vw;
     }
   }
 
@@ -806,7 +817,7 @@ a {
         content: "";
         position: absolute;
         right: 0;
-        background-image: url(/images/common/arrow.png);
+        background-image: url(../images/common/arrow.png);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -857,7 +868,7 @@ a {
   }
 
   &__date {
-    color: rgb(173, 173, 173);
+    color: $cGray;
   }
 
   &__list {

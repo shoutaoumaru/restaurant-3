@@ -1,23 +1,16 @@
+<?php 
+/* Template Name: menu
+*/
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>飲食店テンプレート3/MENU</title>
-  <link rel="stylesheet" href="/styles/vendor/bootstrap-reboot.css">
-  <link rel="stylesheet" href="/styles/vendor/animsition.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Noto+Serif+JP:wght@200&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="/styles/vendor/swiper.min.css">
-  <link rel="stylesheet" href="/styles/style.css">
+  <title>飲食店テンプレート3 | MENU</title>
+  <?php get_header(); ?>
 </head>
 
 <body>
-  <!-- <div class="shutter"></div> -->
   <div class="superwrapper-menu animsition">
     <header id="header" class="header">
       <div class="mobile-container">
@@ -38,9 +31,9 @@
       <div class="pc-container">
         <div class="pc-header">
           <ul class="pc-header__list">
-            <li class="pc-header__item"><a class="animsition-link" href="/">TOP</a></li>
-            <li class="pc-header__item"><a class="animsition-link" href="/menu/menu.html">Menu</a></li>
-            <li class="pc-header__item"><a class="animsition-link" href="/news/news.html">News</a></li>
+            <li class="pc-header__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">TOP</a></li>
+            <li class="pc-header__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/menu')); ?>">Menu</a></li>
+            <li class="pc-header__item"><a class="animsition-link" href="<?php echo esc_url( home_url('/staff')); ?>/news">News</a></li>
           </ul>
         </div>
       </div>
@@ -62,7 +55,7 @@
           <p class="c-txt-sm">メニュー</p>
         </h1>
         <div class="c-top__img">
-          <img src="/images/home/paella@pc.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/home/paella@pc.jpg" alt="">
         </div>
       </div>
     </div>
@@ -222,14 +215,14 @@
       <div class="c-container">
         <div class="p-footer__sns">
           <div class="sns-insta">
-            <a class="sns-link" href="#"><i></i></a>
+            <a class="sns-link" href="https://www.instagram.com/"><i></i></a>
           </div>
           <div class="sns-fb">
-            <a class="sns-link" href="#"><i></i></a>
+            <a class="sns-link" href="https://www.facebook.com/"><i></i></a>
           </div>
         </div>
         <div class="c-logo">
-          <img src="/images/common/riv_logo.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/common/riv_logo.png" alt="">
         </div>
         <div class="copyright">
           &copy; RivRound.inc
@@ -241,13 +234,13 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/">TOP</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/')); ?>">TOP</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/menu/menu.html">MENU</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/menu')); ?>">MENU</a>
           </li>
           <li class="mobile-menu__item">
-            <a class="animsition-link" href="/news/news.html">NEWS</a>
+            <a class="animsition-link" href="<?php echo esc_url( home_url('/news')); ?>">NEWS</a>
           </li>
         </ul>
         <div class="reserve-btn-wrap">
@@ -267,17 +260,9 @@
       </nav>
     </div>
     <!------ /.mobile-menu ----->
+    <?php get_template_part('includes/c-footer'); ?>
   </div>
   <!-- .superwrapper -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/scripts/libs/text-animation.js"></script>
-  <script src="/scripts/libs/scroll-btn.js"></script>
-  <script src="../scripts/vendor/animsition.min.js"></script>
-  <script src="../scripts/libs/page.js"></script>
-  <script src="/scripts/libs/scroll.js"></script>
-  <script src="/scripts/libs/mobile-menu.js"></script>
-  <script src="/scripts/libs/tab.js"></script>
-  <script src="/scripts/c-main.js"></script>
 </body>
 
 </html>
