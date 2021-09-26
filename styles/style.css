@@ -610,8 +610,12 @@
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Noto Serif JP", serif;
+}
+
+body.hidden {
+  overflow: hidden;
 }
 
 img {
@@ -655,7 +659,7 @@ a {
 }
 
 .c-txt-xs {
-  font-size: .7rem;
+  font-size: 0.7rem;
   letter-spacing: 2px;
   line-height: 2;
   color: #474747;
@@ -663,7 +667,7 @@ a {
 
 .page-link {
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: #424242;
 }
 
@@ -681,7 +685,7 @@ a {
   position: absolute;
   top: 50%;
   left: 0;
-  content: '';
+  content: "";
   display: inline-block;
   height: 1px;
   width: 8vw;
@@ -706,7 +710,7 @@ a {
   line-height: 2.2;
   color: #474747;
   font-weight: 100;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-bottom: 4vw;
 }
 
@@ -718,7 +722,7 @@ a {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr;
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 3px;
   z-index: 1000;
 }
@@ -754,7 +758,7 @@ a {
 }
 
 .icon-tel::before {
-  content: '';
+  content: "";
   display: block;
   background-image: url(../images/common/icon-tel.png);
   background-position: center;
@@ -769,7 +773,7 @@ a {
 }
 
 .icon-map::before {
-  content: '';
+  content: "";
   display: block;
   background-image: url(../images/common/icon-map.png);
   background-position: center;
@@ -784,7 +788,7 @@ a {
 }
 
 .icon-net::before {
-  content: '';
+  content: "";
   display: block;
   background-image: url(../images/common/icon-calendar.png);
   background-position: center;
@@ -803,7 +807,7 @@ a {
 }
 
 .icon-insta::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -817,7 +821,6 @@ a {
 
 .header {
   z-index: 2000;
-  height: 70px;
   width: 100%;
   background-color: #fff;
 }
@@ -856,7 +859,7 @@ a {
   bottom: 0;
   left: 0;
   background-color: #fff;
-  opacity: .7;
+  opacity: 0.7;
   height: 7.5vh;
   width: 100%;
   z-index: 2000;
@@ -933,7 +936,7 @@ a {
 }
 
 .p-message__img::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -1162,7 +1165,7 @@ a {
 
 .p-info__item p {
   margin-top: 3vw;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .p-info__item .g-map {
@@ -1171,14 +1174,14 @@ a {
   padding-left: 25px;
   display: block;
   margin-top: 5vw;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .p-info__item .g-map::before {
   position: absolute;
   top: 2px;
   left: 0;
-  content: '';
+  content: "";
   height: 20px;
   width: 20px;
   background-image: url(../images/common/icon-map.png);
@@ -1337,7 +1340,7 @@ a {
 .p-footer .copyright {
   text-align: center;
   margin-top: 5vw;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .superwrapper-menu .c-top__tit {
@@ -1354,7 +1357,7 @@ a {
 }
 
 .c-news {
-  padding-top: 20vw;
+  padding-top: 5vw;
 }
 
 .c-news__date {
@@ -1405,7 +1408,7 @@ a {
   width: 10vw;
   height: 10vw;
   border-radius: 100%;
-  border: 1px solid #C4CCD1;
+  border: 1px solid #c4ccd1;
   background: #fff;
   margin: 0 1.3vw;
 }
@@ -1450,7 +1453,7 @@ a {
 
 .c-news .c-news__contents {
   line-height: 2;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .c-news .c-news__title {
@@ -2362,16 +2365,13 @@ Stylesheet: 600px以上のモニタで適用
     font-size: 1.1rem;
   }
   .c-txt-xs {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .c-txt-vertical {
     font-size: 1.3rem;
   }
   .view-more__link {
     font-size: 1.5rem;
-  }
-  .header {
-    height: 90px;
   }
   .header .sp-navbtn {
     display: none;
@@ -2469,7 +2469,7 @@ Stylesheet: 600px以上のモニタで適用
     padding-left: 76px;
   }
   .mobile-menu__nav address em {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .c-top {
     text-align: center;

@@ -4,13 +4,12 @@ Stylesheet: 600px以上のモニタで適用
 
 ******************************************************************/
 
-
 .c-txt-sm {
   font-size: 1.1rem;
 }
 
 .c-txt-xs {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .c-txt-vertical {
@@ -25,8 +24,6 @@ Stylesheet: 600px以上のモニタで適用
 
 //header
 .header {
-  height: 90px;
-
   & .sp-navbtn {
     display: none;
   }
@@ -74,7 +71,6 @@ Stylesheet: 600px以上のモニタで適用
   padding: 20vw 0 0 0;
 
   &__img {
-
     &.left,
     &.right {
       height: 290px;
@@ -130,7 +126,6 @@ Stylesheet: 600px以上のモニタで適用
 
 //#footer
 .p-footer {
-
   & .sns-insta,
   & .sns-fb {
     margin-right: 15px;
@@ -176,13 +171,13 @@ Stylesheet: 600px以上のモニタで適用
       padding-left: 76px;
 
       & em {
-        font-size: .9rem;
+        font-size: 0.9rem;
       }
     }
   }
 }
 
-//* * * * * * * * * menu-page * * * * * * * * * * 
+//* * * * * * * * * menu-page * * * * * * * * * *
 .c-top {
   text-align: center;
 
