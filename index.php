@@ -318,6 +318,18 @@
       </div>
     </section>
     <!-- /#information -->
+    <section id="instagram" class="p-insta">
+      <div class="c-container">
+        <h2 class="p-insta__tit clip-js left">
+          <p class="c-txt-lr">Instagram</p>
+          <span class="c-txt-xs">インスタグラム</span>
+        </h2>
+        <div class="p-insta-img">
+        <?php echo apply_filters('the_content', '[instagram-feed]'); ?>
+        </div>
+      </div>
+    </section>
+    <!-- /#instagram -->
     <section id="news" class="p-news">
       <div class="c-container">
         <h2 class="p-news__tit clip-js left">

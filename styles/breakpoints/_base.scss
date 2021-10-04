@@ -2,6 +2,7 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   font-family: "Noto Serif JP", serif;
+
   &.hidden {
     overflow: hidden;
   }
@@ -585,6 +586,15 @@ a {
         background-repeat: no-repeat;
         background-size: contain;
       }
+    }
+  }
+}
+
+//#instagram
+.p-insta {
+  &__tit {
+    & p {
+      margin-bottom: -20px;
     }
   }
 }

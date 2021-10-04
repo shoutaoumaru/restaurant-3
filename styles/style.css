@@ -1190,6 +1190,10 @@ a {
   background-size: contain;
 }
 
+.p-insta__tit p {
+  margin-bottom: -20px;
+}
+
 .p-news {
   position: relative;
   padding: 15vw 0;
