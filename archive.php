@@ -57,6 +57,9 @@
           <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
             <li class="c-news__item">
               <a href="<?php the_permalink(); ?>" class="c-news__link animsition-link">
+                <div class="thomneil">
+                  <?php the_post_thumbnail(); ?>
+                </div>
                 <span class="c-news__date"><?php echo get_the_date(); ?></span>
                 <p class="c-news__tit"><?php the_title(); ?></p>
               </a>

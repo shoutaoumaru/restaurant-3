@@ -57,7 +57,7 @@
               <span class="c-news-sl__date"><?php echo get_the_date(); ?></span>
             </div>
             <div class="c-news-sl__contents">
-              <p><?php the_content('Read more'); ?></p>
+              <p><?php the_content(); ?></p>
             </div>
           </li>
         </ul>
